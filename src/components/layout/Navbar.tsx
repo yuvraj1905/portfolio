@@ -42,8 +42,8 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20 ">
-          <div className="flex items-center justify-start -ml-6 h-full " onClick={() => router.push('/')}>
-            <Image src="/assets/portfoliologo.png" alt="Logo" width={100} height={100} className="cursor-pointer" />
+          <div className="flex items-center justify-start -ml-5 h-full " onClick={() => router.push('/')}>
+            <Image src="/assets/portfoliologo.png" alt="Logo" width={80} height={80} className="cursor-pointer" />
           </div>
           
           {/* Desktop Menu */}
