@@ -1,20 +1,10 @@
-"use client"; // Keep for TypeAnimation - CAN BE REMOVED IF TYPEANIMATION IS GONE
+"use client";
 
 import { portfolioData } from '@/data/portfolioData';
-
-import {
-  FaGithub, FaReact, FaNodeJs, FaDocker, FaHtml5, FaCss3Alt, FaJsSquare, FaGitAlt, FaAws, FaDatabase, FaCodeBranch, FaCloud, FaPython, FaJava, FaMicrosoft
-} from 'react-icons/fa'; // Retaining only potentially used icons
-import {
-  SiNextdotjs, SiTypescript, SiTailwindcss, SiRedux, SiMongodb, SiExpress, SiPostgresql, SiGraphql, SiFirebase, SiSocketdotio, SiGooglecloud
-} from 'react-icons/si'; // Retaining only potentially used icons
 import SkillsSectionSmall from './SkillsSectionSmall';
 
-// getHeroSkillIcon function and its direct icon dependencies removed as it was unused.
-// If SkillsSectionSmall needs specific icons, they should be managed there or passed as props.
-
 const HeroSection = () => {
-  const { name, /* title, */ tagline , summaryLinkedin} = portfolioData.personalInfo; // Removed unused summary, socialLinks
+  const { name, tagline , summaryLinkedin} = portfolioData.personalInfo; // Removed unused summary, socialLinks
   const currentExperience = portfolioData.experiences.find(exp => exp.isCurrent);
 
   return (

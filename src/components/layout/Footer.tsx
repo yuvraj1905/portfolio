@@ -1,7 +1,7 @@
 import { portfolioData } from "@/data/portfolioData";
 import Link from "next/link";
 import {
-  FaLinkedin, FaGithub, FaEnvelope, FaRegCopyright,
+  FaLinkedin, FaGithub, FaEnvelope,
 } from "react-icons/fa";
 import { SiLeetcode, SiNextdotjs, SiTailwindcss } from "react-icons/si";
 
