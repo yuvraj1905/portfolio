@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react'; // Using lucide-react for icons, will need to install
 import { FaBars, FaTimes } from "react-icons/fa";
 import { usePathname, useRouter } from 'next/navigation';
 import Image from 'next/image';

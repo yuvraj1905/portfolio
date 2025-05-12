@@ -1,5 +1,5 @@
-import Footer from "@/components/layout/Footer";
 import { portfolioData } from "@/data/portfolioData";
+import Image from "next/image";
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
 // Metadata for this page (can be uncommented and refined)

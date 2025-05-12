@@ -1,9 +1,9 @@
 import { portfolioData } from '@/data/portfolioData';
 import {
-  FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare, FaGitAlt, FaDocker, FaAws, FaDatabase, FaCodeBranch, FaTools, FaServer, FaMobileAlt, FaCloud, FaJs, FaPython, FaJava, FaGithub, FaMicrosoft
-} from 'react-icons/fa'; 
+  FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare, FaGitAlt, FaDocker, FaAws, FaDatabase, FaCodeBranch, FaServer, FaMobileAlt, FaCloud, FaPython, FaJava, FaGithub, FaMicrosoft, FaTools
+} from 'react-icons/fa';
 import {
-  SiTypescript, SiNextdotjs, SiRedux, SiTailwindcss, SiMongodb, SiExpress, SiPostgresql, SiGraphql, SiFirebase, SiSocketdotio, SiJest, SiCypress, SiStorybook, SiWebpack, SiBabel, SiEslint, SiPrettier, SiHeroku, SiNetlify, SiVercel, SiKubernetes, SiTerraform, SiJenkins, SiGitlab, SiBitbucket, SiPostman, SiSwagger, SiAdobephotoshop, SiAdobeillustrator, SiAdobexd, SiSvelte, SiAmazondynamodb, SiAmazons3, SiGooglecloud, SiRedis, SiNginx, SiApachekafka, SiRabbitmq
+  SiTypescript, SiNextdotjs, SiRedux, SiTailwindcss, SiMongodb, SiExpress, SiPostgresql, SiGraphql, SiFirebase, SiSocketdotio, SiGooglecloud
 } from 'react-icons/si';
 // ... import more icons as needed
 
@@ -46,7 +46,7 @@ const getSkillIcon = (skillName: string) => {
 };
 
 const SkillsSectionSmall = () => {
-  let { shortSkills:finalListOfSkills } = portfolioData;
+  const { shortSkills:finalListOfSkills } = portfolioData;
   if (!finalListOfSkills || finalListOfSkills.length === 0) {
     return null;
   }

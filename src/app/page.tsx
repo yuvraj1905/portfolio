@@ -1,6 +1,4 @@
 import HeroSection from "@/components/sections/HeroSection";
-import { portfolioData } from "@/data/portfolioData";
-import Link from 'next/link';
 
 export default function Home() {
   // const { experiences, personalProjects } = portfolioData; // Keep if we add highlights back

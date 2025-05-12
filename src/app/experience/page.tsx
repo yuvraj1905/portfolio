@@ -1,4 +1,3 @@
-import Footer from "@/components/layout/Footer";
 import { portfolioData, ProfessionalProject } from "@/data/portfolioData";
 
 // Metadata for this page (can be uncommented and refined)

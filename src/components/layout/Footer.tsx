@@ -1,6 +1,8 @@
 import { portfolioData } from "@/data/portfolioData";
 import Link from "next/link";
-import { FaLinkedin, FaGithub, FaEnvelope, FaReact, FaHeart } from "react-icons/fa";
+import {
+  FaLinkedin, FaGithub, FaEnvelope, FaRegCopyright,
+} from "react-icons/fa";
 import { SiLeetcode, SiNextdotjs, SiTailwindcss } from "react-icons/si";
 
 const Footer = () => {

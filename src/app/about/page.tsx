@@ -1,10 +1,8 @@
 import { portfolioData } from "@/data/portfolioData";
 import Image from "next/image";
-import Link from 'next/link'; // For contact links if any are <Link> components
 import { FaLinkedin, FaGithub, FaEnvelope, FaPhone } from 'react-icons/fa';
 import { SiLeetcode } from 'react-icons/si';
 import SkillsSection from "@/components/sections/SkillsSection"; // Added import for SkillsSection
-import Footer from "@/components/layout/Footer";
 // Metadata for this page (can be uncommented and refined)
 // export const metadata = {
 //   title: "About Yuvraj Kumar - Software Developer Portfolio",
@@ -127,7 +125,7 @@ export default function AboutPage() {
           </h2>
           <div className="max-w-3xl mx-auto bg-gray-800 p-8 sm:p-10 rounded-lg shadow-xl border border-gray-700">
             <p className="text-lg text-center text-gray-300 mb-8">
-              I'm currently open to new opportunities and collaborations. Whether you have a project in mind, a question, or just want to connect, feel free to reach out!
+              I&apos;m currently open to new opportunities and collaborations. Whether you have a project in mind, a question, or just want to connect, feel free to reach out!
             </p>
             <div className="flex flex-wrap justify-center items-center gap-6 sm:gap-8">
               {socialLinks.email && (
