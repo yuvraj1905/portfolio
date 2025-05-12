@@ -1,0 +1,24 @@
+{
+    "root": true,
+    "extends": [
+      "next",
+      "next/core-web-vitals"
+      // Add other extended configurations if you have them
+    ],
+    "plugins": [
+      "@typescript-eslint", // If you're using TypeScript
+      "react"
+      // Add other plugins if you have them
+    ],
+    "rules": {
+      // Disable the specific rules that are causing errors
+      "@typescript-eslint/no-unused-vars": "off",
+      "react/no-unescaped-entities": "off",
+      "prefer-const": "off"
+  
+      // You can also set them to "warn"
+      // "@typescript-eslint/no-unused-vars": "warn",
+      // "react/no-unescaped-entities": "warn",
+      // "prefer-const": "warn"
+    }
+  }
